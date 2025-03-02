@@ -1,0 +1,16 @@
+<p>counter-app works!</p>
+
+<div style="text-align: center;">
+    <h1 class="count">{{value}}</h1>
+    <div>
+        <!-- <button class="btn bg-red" (click)="DecrementService()" id="btndecrement">Decrement</button>
+        <button class="btn bg-black"  (click)="ResetService()" id="btnreset">reset</button>
+        <button class="btn bg-green" (click)="IncrementService()" id="btnincrement">Increment</button> -->
+
+        <button class="btn bg-red" (click)="CommonService('minus')" id="btndecrement">Decrement</button>
+        <button class="btn bg-black"  (click)="CommonService('reset')" id="btnreset">reset</button>
+        <button class="btn bg-green" (click)="CommonService('plus')" id="btnincrement">Increment</button>
+    </div>
+
+</div>
+<br />
