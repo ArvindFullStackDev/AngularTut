@@ -1,13 +1,39 @@
 <p>ang-binding-tut works!</p>
 {{OneWay}}
-<br/>
+<br />
 {{TextInterpolation1}}
-<br/>
+<br />
 {{TI1_Ex}}
-<br/>
+<br />
 {{x+y}}
-<br/>
+<br />
 {{'Hello'.toUpperCase()}}
-<br/>
+<br />
 {{TextInterpolation1.toUpperCase()}}
-
+<br />
+<br />
+{{EventBinding}}
+<br />
+Event Binding Data : {{EB1_Ex}}
+<br />
+<button (click)="myEventBindingAction()">Click me</button>
+<br />
+<br />
+{{PropertyBinding}}
+<br />
+<input type="text" [value]="PB1_Ex" />
+<br />
+<br />
+{{AttributeBinding}}
+<br />
+<input type="text" name="username" [attr.value]="AB1_Ex" />
+<br />
+<br />
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+<br />
+{{TwoWay}}
+<br />
+Two Data Binding Value = {{TW_Ex1}}
+<br />
+<br />
+<input type="text" [(ngModel)]="TW_Ex1" />

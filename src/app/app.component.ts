@@ -6,8 +6,9 @@ import { CounterAppComponent } from './counter-app/counter-app.component';
 @Component({
   selector: 'app-root',
   imports: [//LoginComponent,
-    //AngBindingTutComponent,
-    CounterAppComponent],
+    AngBindingTutComponent
+   // CounterAppComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
