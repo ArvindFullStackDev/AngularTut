@@ -36,8 +36,14 @@ export class AngBindingTutComponent {
   TwoWay = "Two Way Data Binding";
   TW_Ex1: string = "";
 
+  TwoWayNew = "Two Way Data Binding with Another Way Using Event";
+  TW_Ex2: string = "";
 
+  onInputChange(event : Event){
+    const inputValue = (event.target as HTMLInputElement).value;
+    this.TW_Ex2 = inputValue;
 
+  }
 
 
 }
