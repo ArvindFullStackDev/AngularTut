@@ -46,4 +46,7 @@ export class AngBindingTutComponent {
   }
 
 
+/// New Test has made hear
+ass
+
 }
